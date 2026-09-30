@@ -1,3 +1,17 @@
+# User-Agent * means these rules apply to all search engines (Google, Bing, etc.)
 User-agent: *
+
+# Allow them to crawl your core public pages
 Allow: /
-Sitemap: https://rabindra-jha.github.io/examkinetic/sitemap.xml
+Allow: /create-exam
+Allow: /take-exam
+Allow: /how-to-use
+Allow: /manual
+
+# Disallow crawling of deep session states or configurations to prevent empty index pages
+Disallow: /create-exam/builder
+Disallow: /take-exam/config
+Disallow: /take-exam/session
+
+# Point search engines to your future sitemap (uncomment this when you generate one later)
+# Sitemap: https://examkinetic.com
