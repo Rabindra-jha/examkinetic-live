@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ExamKinetic</title>
+    <script>
+      const path = window.location.pathname.replace('/examkinetic', '');
+            if (!path.includes('.')) {
+        sessionStorage.setItem('redirect', path);
+        window.location.replace('/examkinetic/');
+      }
+
+    </script>
+  </head>
+  <body></body>
+</html>
