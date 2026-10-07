@@ -1,0 +1,16 @@
+{
+  "name": "ExamKinetic Browser Engine",
+  "short_name": "ExamKinetic",
+  "description": "Own your preparation. No subscription. No account. Just prep.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#137fec",
+  "icons": [
+    {
+      "src": "/ExamKineticSquareLogo184x184.png",
+      "sizes": "184x184",
+      "type": "image/png"
+    }
+  ]
+}
